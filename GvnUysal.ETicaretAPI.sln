@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{053134A5-5A12-4225-9570-C85094ABDEED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GvnUysal.ETicaretAPI.Domain", "Core\GvnUysal.ETicaretAPI.Domain\GvnUysal.ETicaretAPI.Domain.csproj", "{0D04B819-437E-47BA-9EB0-1848DE032F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GvnUysal.ETicaretAPI.Application", "Core\GvnUysal.ETicaretAPI.Application\GvnUysal.ETicaretAPI.Application.csproj", "{7C758D5D-A217-465D-9DCA-366579E7AF79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2B079F2F-08EF-4126-8DC6-B7656364F26E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GvnUysal.ETicaretAPI.Infrastructure", "Infrastructure\GvnUysal.ETicaretAPI.Infrastructure\GvnUysal.ETicaretAPI.Infrastructure.csproj", "{859B1C19-9773-46E8-A89D-7D9668ED0DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GvnUysal.ETicaretAPI.Persistence", "Infrastructure\GvnUysal.ETicaretAPI.Persistence\GvnUysal.ETicaretAPI.Persistence.csproj", "{546377AF-0DC6-46DF-A7E9-4EAC09E52545}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D7A5A87E-0284-4198-A340-F94EFCD3AB9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GvnUysal.ETicaretAPI.Api", "Presentation\GvnUysal.ETicaretAPI.Api\GvnUysal.ETicaretAPI.Api.csproj", "{E6574379-14EC-448C-A30A-14E0F4245B7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D04B819-437E-47BA-9EB0-1848DE032F19} = {053134A5-5A12-4225-9570-C85094ABDEED}
+		{7C758D5D-A217-465D-9DCA-366579E7AF79} = {053134A5-5A12-4225-9570-C85094ABDEED}
+		{859B1C19-9773-46E8-A89D-7D9668ED0DAD} = {2B079F2F-08EF-4126-8DC6-B7656364F26E}
+		{546377AF-0DC6-46DF-A7E9-4EAC09E52545} = {2B079F2F-08EF-4126-8DC6-B7656364F26E}
+		{E6574379-14EC-448C-A30A-14E0F4245B7B} = {D7A5A87E-0284-4198-A340-F94EFCD3AB9A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D04B819-437E-47BA-9EB0-1848DE032F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D04B819-437E-47BA-9EB0-1848DE032F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D04B819-437E-47BA-9EB0-1848DE032F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D04B819-437E-47BA-9EB0-1848DE032F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C758D5D-A217-465D-9DCA-366579E7AF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C758D5D-A217-465D-9DCA-366579E7AF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C758D5D-A217-465D-9DCA-366579E7AF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C758D5D-A217-465D-9DCA-366579E7AF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859B1C19-9773-46E8-A89D-7D9668ED0DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859B1C19-9773-46E8-A89D-7D9668ED0DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859B1C19-9773-46E8-A89D-7D9668ED0DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859B1C19-9773-46E8-A89D-7D9668ED0DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{546377AF-0DC6-46DF-A7E9-4EAC09E52545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546377AF-0DC6-46DF-A7E9-4EAC09E52545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546377AF-0DC6-46DF-A7E9-4EAC09E52545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546377AF-0DC6-46DF-A7E9-4EAC09E52545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C366DB-3F16-476A-8B9C-59ECAF6DDF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C366DB-3F16-476A-8B9C-59ECAF6DDF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C366DB-3F16-476A-8B9C-59ECAF6DDF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C366DB-3F16-476A-8B9C-59ECAF6DDF10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6574379-14EC-448C-A30A-14E0F4245B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6574379-14EC-448C-A30A-14E0F4245B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6574379-14EC-448C-A30A-14E0F4245B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6574379-14EC-448C-A30A-14E0F4245B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
